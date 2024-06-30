@@ -1,0 +1,65 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+nav a.nav-link-active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.nav-link-active:hover {
+    color:#00b300;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.product {
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #00b300;
+}
+
+.product-image {
+    width: 200px; /* Justera bredden efter behov */
+    height: 200px; /* Justera höjden efter behov */
+    object-fit: cover; /* Behåll proportionerna och fyll hela ytan */
+    display: block;
+    margin: 0 auto; /* Centrerar bilden inom produkten */
+}
