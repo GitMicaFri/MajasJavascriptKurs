@@ -118,3 +118,5 @@ products.forEach((product, index) => { // Loopa igenom varje produkt, lägg till
     img.classList.add('product-image')
     product.insertBefore(img, product.querySelector('h3').nextSibling); // Lägg till bild-elem i produkt-elem.
 })
+
+console.log('Running javascript in terminal')
