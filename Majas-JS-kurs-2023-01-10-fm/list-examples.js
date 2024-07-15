@@ -1,5 +1,8 @@
 // vår första lista:
 // två sätt att skapa listor på:
+
+//const { lastDayOfWeekWithOptions } = require("date-fns/fp")
+
 // 1
 const pokemons = ['Bulbasaur', 'Ivysaur', 'Venusaur'];
 console.log(pokemons)
@@ -61,7 +64,23 @@ if (index < 0) {
  }
 
 // while loop (körs så länge en condition inte är uppfylld)
+let i = 0;
 while (i < nameList.length) {
     console.log(nameList[i])
+    i++;
 }
+
+// samma fast baklänges
+let j = 2;
+while (j <= 0) {
+    console.log(nameList[j])
+    j--;
+}
+
+ // for of loop
+ for (let name of nameList) {
+    console.log(name)
+ }
+
+
 
